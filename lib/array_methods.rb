@@ -1,12 +1,17 @@
 def find_element_index(array, value_to_find)
-    index = nil;
-    for i in 0... array.length do
-          if array[i] == value_to_find
-              index = i
-          end
-      end
-      puts index
-      index
+  index = 0 
+  while index < array.length do
+    array[index] == value_to_find
+  end
+  return index
+    # index = nil;
+    # for i in 0... array.length do
+    #       if array[i] == value_to_find
+    #           index = i
+    #       end
+    #   end
+    #   puts index
+    #   index
 end
 
 
